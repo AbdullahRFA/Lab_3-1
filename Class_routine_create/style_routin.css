@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 10px;
+    /* background-color: gray; */
+}
+
+/* mul routine div er design suru */
+.routine{
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 5px 5px;
+    background-color: rgb(183, 228, 18);
+    
+}
+/* mul routine div er design sesh */
+
+/* routine div er vitorer 26 ta div er disign suru */
+.routine > div{
+    /* background-color: orange; */
+    height: 100px;
+    /* width: 180px; */
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    align-items: center;
+    font-weight: bold;
+    font-style: italic;
+    /* margin: 0 auto; */
+}
+/* routine div er vitorer 26 ta div er disign sesh */
+
+
+/* .routine > div:nth-child(odd)
+{
+    background-color: gray;
+}
+.routine > div:nth-child(even)
+{
+    background-color: white;
+} */
+
+/* indivisual kiso div er design je kon div koto tuku jaiga nibe ..suru */
+.d11{
+    grid-column: 5/7;
+}
+.d14{
+    grid-column: 3/5;
+}
+.d15{
+    grid-column: 5/7;
+}
+.d18{
+    grid-column: 3/5;
+}
+.d23{
+    grid-column: 3/5;
+}
+.d24{
+    grid-column: 5/7;
+}
+.d26{
+    grid-column: 2/7;
+}
+/* indivisual kiso div er design ...sesh */
+
+/* gb black color ar text white color add */
+.black{
+    background-color:black;
+    color: white;
+}
+
+/* bg white color add */
+.color{
+    background-color: white;
+}
+
+.color_gray{
+    background-color: rgb(163, 212, 243);
+}
+
+
+/* routine div er vitorer div er paragraph er design column er jonne suru */
+.pos p{
+    /* margin: 0 auto; */
+    position: relative;
+    top: 30px;
+    font-size: 23px;
+    font-style:italic;
+    font-weight: bold;
+}
+/* routine div er vitorer div er paragraph er design sesh */
+
+
+/* routine div er vitorer div er paragraph er design row er jonne suru */
+.poss p{
+    position: relative;
+    top: 30px;
+    font-size: 21px;
+    font-style:italic;
+    font-weight: bold;
+}
+/* routine div er vitorer div er paragraph er design row er jonne sesh */
+
+/* copyright er design */
+.copyright{
+   position: absolute;
+    left: 450px;
+}
+
+/* cr and cr1 er design */
+.cr{
+    position: absolute;
+    left: 900px;
+}
+.cr1{
+    position: absolute;
+    left: 1100px;
+}
